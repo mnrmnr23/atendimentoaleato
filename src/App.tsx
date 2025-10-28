@@ -1,7 +1,7 @@
 import { FileText, HandshakeIcon, MessageCircle } from 'lucide-react';
 
 function App() {
-  const whatsappUrl = "https://wa.me/5571999835707?text=Ol%C3%A1";
+  const whatsappUrl = "https://wa.me/557131802484?text=Ol%C3%A1";
 
   const handleButtonClick = (message: string) => {
     window.open(`${whatsappUrl}%20${encodeURIComponent(message)}`, '_blank');
@@ -16,7 +16,7 @@ function App() {
               <HandshakeIcon className="w-10 h-10 text-white" />
             </div>
             <h1 className="text-5xl font-bold text-slate-900 mb-4">
-              Gestão de Ativos
+              Gestão Neoenergia
             </h1>
             <p className="text-xl text-slate-600 max-w-2xl mx-auto">
               Escolha uma das opções abaixo para ser atendido rapidamente
